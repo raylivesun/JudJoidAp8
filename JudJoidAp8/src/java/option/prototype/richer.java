@@ -1,0 +1,17 @@
+package matrix.gnu.bin.option.prototype;
+
+public interface richer {
+
+    Object clone() throws CloneNotSupportedException;
+
+    @Override
+    boolean equals(Object obj);
+
+    void finalize() throws Throwable;
+
+    @Override
+    int hashCode();
+
+    @Override
+    String toString();
+}
