@@ -1,0 +1,16 @@
+{
+    "$root": {
+        "$in": "query:all[homeoffice]",
+        "$values": {
+            "$boolean": "true",
+            "$string": "true",
+            "$object": "true",
+            "$array": "true"
+        }         
+    },
+    "$address": {
+        "$ipc": "185.199.111.133",
+        "$port": "443"
+    }
+
+}
